@@ -20,6 +20,21 @@
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
 
+    <!-- springdoc dependency instantly give us two urls -->
+    <!-- http://localhost:8080/v3/api-docs/ -->
+    <!-- http://localhost:8080/swagger-ui.html -->
+    <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-ui</artifactId>
+      <version>1.5.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
