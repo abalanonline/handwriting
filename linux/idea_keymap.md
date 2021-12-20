@@ -1,7 +1,7 @@
 ### macOS keymap file for Idea
 
 ```bash
-jar xf ~/opt/idea-IC-193.7288.26/lib/resources.jar keymaps/\$default.xml "keymaps/Mac OS X.xml" "keymaps/Mac OS X 10.5+.xml"
+jar xf ~/idea-IC-193.7288.26/lib/resources.jar keymaps/\$default.xml "keymaps/Mac OS X.xml" "keymaps/Mac OS X 10.5+.xml"
 javac IdeaKeymap.java
 java IdeaKeymap
 mv "macOS copy.xml" ~/.IdeaIC2019.3/config/keymaps/
