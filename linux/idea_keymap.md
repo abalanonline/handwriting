@@ -41,7 +41,8 @@ public class IdeaKeymap {
 
   static String remap(String s, String control, String alt, String meta) {
     String[] strings = s.split("\"");
-    strings[1] = strings[1].replace("control", "<c>").replace("alt", "<a>").replace("meta", "<m>")
+    strings[1] = strings[1].replaceAll("(?i)control", "<c>").replaceAll("(?i)ctrl", "<c>")
+        .replaceAll("(?i)alt", "<a>").replaceAll("(?i)meta", "<m>")
         .replace("<c>", control).replace("<a>", alt).replace("<m>", meta);
     return String.join("\"", strings);
   }
@@ -77,7 +78,7 @@ public class IdeaKeymap {
   public static void main(String[] args) throws IOException {
     map.put("<", Collections.singletonList("<keymap version=\"1\" name=\"macOS copy\" parent=\"Mac OS X 10.5+\">\n"));
     read("$default.xml", s -> remap(s, KEY3, KEY2, KEY3));
-    read("Mac OS X.xml", s -> remap(s, KEY1, KEY2, KEY3));
+    //read("Mac OS X.xml", s -> remap(s, KEY1, KEY2, KEY3));
     read("Mac OS X 10.5+.xml", s -> remap(s, KEY1, KEY2, KEY3));
     map.put(">", Collections.singletonList("</keymap>\n"));
     Files.write(Paths.get("macOS copy.xml"),
