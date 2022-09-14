@@ -10,3 +10,11 @@ Settings - Keyboard Shortcuts - Switch windows
 gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 30
 gsettings set org.gnome.desktop.peripherals.keyboard delay 250
 ```
+
+### disable suspend
+
+/etc/gdm3/greeter.dconf-defaults
+```bash
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-type='blank'
+```

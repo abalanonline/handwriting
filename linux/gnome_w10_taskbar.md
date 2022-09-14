@@ -11,10 +11,15 @@ gnome-tweaks
 Extensions - Dash to panel - enable
 
 Dash to Panel Settings - Style
+
 Panel Size 40, Margin 0, Padding 8
+
 Override panel color #282828
+
 Override panel opacity 95%
 
 Windows background colors:
+
 Gray dark #4a5459
+
 Storm #4c4a48
