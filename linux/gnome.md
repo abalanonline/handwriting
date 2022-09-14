@@ -18,3 +18,14 @@ gsettings set org.gnome.desktop.peripherals.keyboard delay 250
 [org/gnome/settings-daemon/plugins/power]
 sleep-inactive-ac-type='blank'
 ```
+
+### icons for terminals with different colors/profiles
+
+~/.local/share/applications/gterm2.desktop
+```bash
+[Desktop Entry]
+Type=Application
+Name=Terminal 2
+Exec=gnome-terminal --profile=2
+Icon=utilities-terminal
+```
