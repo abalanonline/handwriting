@@ -19,7 +19,13 @@ gsettings set org.gnome.desktop.peripherals.keyboard delay 250
 sleep-inactive-ac-type='blank'
 ```
 
-### icons for terminals with different colors/profiles
+### disable update notifications
+
+```bash
+gsettings set org.gnome.software allow-updates false
+```
+
+### icons to start terminals with different colors/profiles
 
 ~/.local/share/applications/gterm2.desktop
 ```bash
