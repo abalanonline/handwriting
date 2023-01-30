@@ -2,6 +2,9 @@
 
 ```bash
 mount /dev/sda1 /mnt
+rm /mnt/hiberfil.sys
+rm /mnt/pagefile.sys
+rm /mnt/swapfile.sys
 dd if=/dev/zero of=/mnt/0 bs=1M status=progress
 rm /mnt/0
 umount /mnt
