@@ -26,13 +26,12 @@ Minsize (in MB): 18424
 
 Warning: decimal megabytes
 
-Warning: will fail on estimated size, add 100MB
-
+Warning: it *will* fail and corrupt the data
 
 ```bash
-ntfsresize -s 18524M /dev/sda1
+ntfsresize -s 18424M /dev/sda1
 ntfsfix -d /dev/sda1
-dd if=/dev/sda1 bs=1MB count=18524 status=progress | gzip --fast > sda1.img.gz
+dd if=/dev/sda1 bs=1MB count=18424 status=progress | gzip --fast > sda1.img.gz
 ```
 
 ### restore with resize
