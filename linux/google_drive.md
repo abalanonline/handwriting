@@ -36,10 +36,8 @@ find ~/drive/ -name *.rclonelink | xargs rm
 ```
 [Desktop Entry]
 Name=mount google drive
-GenericName=
-Comment=
-Exec=xterm -T "google drive mounted" -e rclone mount drive: ~/drive/
+Exec=xterm -T "google drive mounted" -e "rclone mount drive: ~/drive/"
 Type=Application
-Icon=google-drive
+Icon=/usr/share/icons/Papirus/24x24/apps/google-drive.svg
 Terminal=false
 ```
