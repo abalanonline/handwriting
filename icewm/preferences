@@ -1,0 +1,43 @@
+ShowTaskBar=1
+
+LargeIconSize=48
+IconThemes="Papirus"
+TaskBarShowShowDesktopButton=2 # after the clock
+WorkspaceNames="workspace"
+TaskBarShowWorkspaces=0
+DesktopBackgroundColor="#4c4a48" # Storm
+TaskBarShowWindowTitles=0
+#TaskbarButtonWidthDivisor=8 # [1-50]
+ConfirmLogout=0
+
+# disable keys
+ClientWindowMouseActions=0
+
+# cpu, mem, net
+#TaskBarShowCPUStatus=0
+ColorCPUStatusIdle="rgb:33/33/33"
+TaskBarShowMEMStatus=0
+TaskBarShowNetStatus=0
+TaskBarShowMailboxStatus=0
+#TaskBarShowWindowListMenu=0
+
+# time
+TaskBarShowClock=1
+ClockFontNameXft="DejaVu Sans Mono:monospace:size=12"
+ColorClock="" # empty for transparency
+ColorClockText="rgb:FF/FF/FF"
+DateFormat="%c"
+TimeFormat="%R"
+
+# battery
+TaskBarShowAPMGraph=1 # 0/1
+TaskBarApmGraphWidth=10 # [1-1000]
+ColorApm="#333333"
+ColorApmGraphBg="#333333"
+ColorApmBattery="#555555"
+ColorApmLine="#333333"
+
+#MenuButtonIconVertOffset=10
+QuickSwitchVertical=1
+#TrayIconMaxHeight=16 # [16-128]
+TrayDrawBevel=0 # 0/1

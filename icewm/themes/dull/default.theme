@@ -1,0 +1,66 @@
+# titlebar
+Look=flat
+TitleFontNameXft="DejaVu Sans:size=9"
+ColorActiveBorder="#000000"
+ColorNormalBorder="#000000"
+ColorActiveTitleBar="#FFFFFF"
+ColorNormalTitleBar="#FFFFFF"
+ColorActiveTitleButton="#FFFFFF"
+ColorNormalTitleButton="#FFFFFF"
+RolloverButtonsSupported=1
+TitleBarHeight=29
+TitleButtonsSupported="xmis"
+ColorActiveTitleBarText="#000000"
+ColorNormalTitleBarText="#999999"
+MenuButtonIconVertOffset=0
+TitleBarHorzOffset=0
+TitleBarVertOffset=0
+
+# taskbar
+TaskBarShowWindows=1
+TaskBarShowWindowTitles=0 # broken, copy to /.icewm/preferences
+TaskbarButtonWidthDivisor=8
+ColorDefaultTaskBar="#333333" # taskbarbg.xpm
+TaskbuttonIconOffset=10
+ColorNormalTaskBarApp="#333333" # taskbuttonbg.xpm
+ColorNormalTaskBarAppText="#FFFFFF"
+ColorToolButton="#333333" # toolbuttonbg.xpm
+ColorToolButtonText="#FFFFFF"
+ColorMinimizedTaskBarApp="#333333" # taskbuttonminimized.xpm
+ColorMinimizedTaskBarAppText="#555555"
+ColorActiveTaskBarApp="#555555" # taskbuttonactive.xpm
+ColorActiveTaskBarAppText="#FFFFFF"
+SmallIconSize=24
+TaskBarGraphHeight=24
+TrayIconMaxHeight=24
+
+# tooltip
+ToolTipFontNameXft="DejaVu Sans:size=12"
+ColorToolTip="#333333"
+ColorToolTipText="#FFFFFF"
+
+# reference design have size 1
+BorderSizeX=2
+BorderSizeY=2
+
+# dialog
+ColorDialog="#FFFFFF"
+ColorLabel="#FFFFFF"
+#ColorNormalButton="#666666" # broken, use taskbuttonbg.xpm
+ColorNormalButtonText="#FFFFFF"
+
+# menu
+MenuFontNameXft="DejaVu Sans:size=10"
+MenuIconSize=24
+ColorNormalMenu="#333333"
+ColorNormalMenuItemText="#AAAAAA"
+ColorActiveMenuItem="#555555"
+ColorActiveMenuItemText="#AAAAAA"
+ColorDisabledMenuItemShadow=""
+ColorDisabledMenuItemText="#555555"
+
+QuickSwitchFontNameXft="DejaVu Sans:monospace:size=12"
+ColorQuickSwitch="#333333"
+ColorQuickSwitchActive="#AAAAAA"
+ColorQuickSwitchText="#AAAAAA"
+

@@ -1,0 +1,11 @@
+# /usr/share/icewm/keys
+# https://ice-wm.org/man/icewm-keys
+
+key "Super+l" xdg-screensaver lock
+key "XF86MonBrightnessDown" brightnessctl set 5%-
+key "XF86MonBrightnessUp" brightnessctl set 5%+
+key "Alt+Ctrl+t" xterm
+key "Super+Shift+s" screengrab
+key "XF86Calculator"        /bin/sh -c "gnome-calculator || xcalc || ( type bc >/dev/null 2>&1 && xterm -e bc -l)"
+
+#switchkey "Super+p"         icewm-menu-xrandr

@@ -1,0 +1,13 @@
+# /usr/share/icewm/toolbar
+
+prog "UXTerm" utilities-terminal uxterm
+prog "Midnight Commander" mc xterm -class mc -e mc
+prog "XCalc" w-calculator xcalc
+prog "XTerm" utilities-x-terminal xterm
+prog "Explorer" folder-yellow pcmanfm-qt
+prog "leafpad" w-notepad leafpad
+prog "IntelliJ IDEA Community Edition" /home/user/opt/idea-IC-193.7288.26/bin/idea.svg /home/user/opt/idea-IC-193.7288.26/bin/idea.sh
+
+#prog "Web browser" internet-web-browser xdg-open about:blank
+prog "Web browser" applications-webapps xdg-open about:blank
+
