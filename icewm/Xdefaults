@@ -1,0 +1,110 @@
+Xcursor.theme: Vanilla-DMZ
+Xcursor.size: 24
+
+xterm.vt100.faceName: DejaVu Sans Mono
+xterm.vt100.faceSize1: 8
+xterm.vt100.faceSize2: 10
+xterm.vt100.faceSize3: 12
+xterm.vt100.faceSize4: 14
+xterm.vt100.faceSize5: 16
+xterm.vt100.faceSize6: 18
+xterm.vt100.faceSize7: 20
+xterm.vt100.translations:   #override \n\
+    Ctrl <Key>+:   larger-vt-font() \n\
+    Ctrl <Key>-:   smaller-vt-font() \n\
+    <Btn3Down>:    ignore() \n\
+    <Btn3Up>:      insert-selection(PRIMARY) \n\
+    Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
+xterm.vt100.backarrowKey: false
+xterm.vt100.metaSendsEscape: true
+xterm.vt100.faceSize: 12
+xterm.vt100.geometry: 132x43
+
+XTerm.vt100.background: #000000
+XTerm.vt100.foreground: #d3d7cf
+XTerm.vt100.color0: #000000
+XTerm.vt100.color1: #cc0000
+XTerm.vt100.color2: #4e9a06
+XTerm.vt100.color3: #c4a000
+XTerm.vt100.color4: #3465a4
+XTerm.vt100.color5: #75507b
+XTerm.vt100.color6: #06989a
+XTerm.vt100.color7: #d3d7cf
+XTerm.vt100.color8: #555753
+XTerm.vt100.color9: #ef2929
+XTerm.vt100.color10: #8ae234
+XTerm.vt100.color11: #fce94f
+XTerm.vt100.color12: #729fcf
+XTerm.vt100.color13: #ad7fa8
+XTerm.vt100.color14: #34e2e2
+XTerm.vt100.color15: #eeeeec
+
+UXTerm.vt100.background: #333333
+UXTerm.vt100.foreground: #cccccc
+UXTerm.vt100.color0: #0c0c0c
+UXTerm.vt100.color1: #c50f1f
+UXTerm.vt100.color2: #13a10e
+UXTerm.vt100.color3: #c19c00
+UXTerm.vt100.color4: #0037da
+UXTerm.vt100.color5: #881798
+UXTerm.vt100.color6: #3a96dd
+UXTerm.vt100.color7: #cccccc
+UXTerm.vt100.color8: #767676
+UXTerm.vt100.color9: #e74856
+UXTerm.vt100.color10: #16c60c
+UXTerm.vt100.color11: #f9f1a5
+UXTerm.vt100.color12: #3b78ff
+UXTerm.vt100.color13: #b4009e
+UXTerm.vt100.color14: #61d6d6
+UXTerm.vt100.color15: #f2f2f2
+
+xcalc.ti.*.font: -misc-dejavu sans mono-bold-r-normal--20-*-100-100-m-0-iso8859-1
+xcalc.ti.Command.width: 48
+xcalc.ti.button2.label: x^2
+xcalc.ti.button3.label: sqrt
+xcalc.ti.button35.label: /
+xcalc.geometry: 400x600
+xcalc.*.Cursor: arrow
+
+# TI-30 SLR
+xcalc.ti.background: #AAB7B9
+xcalc.ti.bevel.background: #012F40
+xcalc.ti.bevel.screen.*.background: #9E9688
+xcalc.ti.bevel.screen.*.foreground: #434536
+xcalc.ti.Command.foreground: #DCDCDC
+xcalc.ti.Command.background: #7D7D7D
+xcalc.ti.button4.background: #7D7D7D
+xcalc.ti.button5.background: #5979B5
+
+xcalc.ti.button35.background: #2F3F3D
+xcalc.ti.button40.background: #2F3F3D
+xcalc.ti.button45.background: #2F3F3D
+xcalc.ti.button50.background: #2F3F3D
+xcalc.ti.button55.background: #2F3F3D
+
+xcalc.ti.button37.background: #DCDCDC
+xcalc.ti.button38.background: #DCDCDC
+xcalc.ti.button39.background: #DCDCDC
+xcalc.ti.button42.background: #DCDCDC
+xcalc.ti.button43.background: #DCDCDC
+xcalc.ti.button44.background: #DCDCDC
+xcalc.ti.button47.background: #DCDCDC
+xcalc.ti.button48.background: #DCDCDC
+xcalc.ti.button49.background: #DCDCDC
+xcalc.ti.button52.background: #DCDCDC
+xcalc.ti.button53.background: #DCDCDC
+xcalc.ti.button54.background: #DCDCDC
+
+xcalc.ti.button37.foreground: #434139
+xcalc.ti.button38.foreground: #434139
+xcalc.ti.button39.foreground: #434139
+xcalc.ti.button42.foreground: #434139
+xcalc.ti.button43.foreground: #434139
+xcalc.ti.button44.foreground: #434139
+xcalc.ti.button47.foreground: #434139
+xcalc.ti.button48.foreground: #434139
+xcalc.ti.button49.foreground: #434139
+xcalc.ti.button52.foreground: #434139
+xcalc.ti.button53.foreground: #434139
+xcalc.ti.button54.foreground: #434139
