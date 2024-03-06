@@ -4,4 +4,10 @@ xterm.mc.icon: mc
 XCalc.icon: accessories-calculator
 Leafpad.icon: wordpad
 pcmanfm-qt.icon: folder-yellow
-jetbrains-idea-ce.dTitleBar: 0
+sun-awt-X11-XFramePeer.jetbrains-idea-ce.dTitleBar: 0
+google-drive.startMinimized: 1
+google-drive.tray: Minimized
+google-drive.icon: google-drive
+proton-drive.startMinimized: 1
+proton-drive.tray: Minimized
+proton-drive.icon: protonmail-bridge

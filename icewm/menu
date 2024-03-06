@@ -1,0 +1,17 @@
+prog Gimp gimp gimp
+prog "Audacity" audacity audacity
+
+prog "Dosbox" dosbox dosbox
+prog "MAME Arcade Emulator" mame mame
+
+prog "seq24" audio-midi seq24
+prog "Schism Tracker" schism schismtracker
+prog "mount google drive" google-drive xterm -class google-drive -T "google drive mounted ^C" -e "rclone mount drive: ~/drive/"
+prog "mount proton drive" protonmail-bridge xterm -class proton-drive -T "proton drive mounted ^C" -e "rclone mount proton: ~/drive/"
+
+prog "Firefox Web Browser" firefox /usr/lib/firefox/firefox
+prog "Chromium" chromium chromium
+prog "Google Chrome" google-chrome google-chrome-stable --simulate-outdated-no-au='Tue, 31 Dec 2099 23:59:59 GMT'
+prog "icons" folder-yellow-favorites pcmanfm-qt /usr/share/icons/Papirus/32x32/apps/
+#menufile Programs folder programs
+menufile Programs folder /usr/share/icewm/menu

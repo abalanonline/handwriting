@@ -59,7 +59,8 @@ UXTerm.vt100.color13: #b4009e
 UXTerm.vt100.color14: #61d6d6
 UXTerm.vt100.color15: #f2f2f2
 
-xcalc.ti.*.font: -misc-dejavu sans mono-bold-r-normal--20-*-100-100-m-0-iso8859-1
+xcalc.ti.*.font: -misc-dejavu sans mono-bold-r-normal--20-*-100-100-m-0-ascii-0
+# xset +fp /usr/share/fonts/TTF/
 xcalc.ti.Command.width: 48
 xcalc.ti.button2.label: x^2
 xcalc.ti.button3.label: sqrt
