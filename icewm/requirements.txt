@@ -1,5 +1,5 @@
 firefox vim htop icewm xterm neofetch
-less rclone mc git jdk11-openjdk openjdk11-src maven gradle
+less zip unzip rclone mc git jdk11-openjdk openjdk11-src maven gradle
 ttf-dejavu xcursor-vanilla-dmz papirus-icon-theme
 xorg-xrandr brightnessctl xscreensaver python-gobject redshift
 volumeicon bluez bluez-utils alsa-utils fluidsynth

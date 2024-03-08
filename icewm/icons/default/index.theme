@@ -1,0 +1,3 @@
+; ~/.local/share/icons/default/index.theme
+[icon theme]
+Inherits=Vanilla-DMZ,Papyrus
