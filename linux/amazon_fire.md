@@ -42,6 +42,7 @@ pm disable-user com.amazon.tahoe
 pm disable-user com.amazon.venezia
 pm disable-user com.amazon.webapp
 pm disable-user com.amazon.windowshop
+pm disable-user com.android.calculator2
 pm disable-user com.android.calendar
 pm disable-user com.android.contacts
 pm disable-user com.android.email
@@ -65,6 +66,7 @@ pm disable-user com.goodreads.kindle
 | com.amazon.venezia             | Appstore       |
 | com.amazon.webapp              | Kindle Store   |
 | com.amazon.windowshop          | Shop Amazon    |
+| com.android.calculator2        | Calculator     |
 | com.android.calendar           | Calendar       |
 | com.android.contacts           | Contacts       |
 | com.android.email              | Email          |
