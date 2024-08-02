@@ -1,5 +1,5 @@
-firefox vim htop icewm xterm neofetch
-less zip unzip rclone mc man-db
+firefox vim htop icewm dunst xterm neofetch
+less zip unzip rclone gvfs-mtp mc man-db
 git jdk11-openjdk openjdk11-src maven gradle
 ttf-dejavu xcursor-vanilla-dmz papirus-icon-theme
 xorg-xrandr brightnessctl xscreensaver python-gobject redshift

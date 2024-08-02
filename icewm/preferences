@@ -29,6 +29,7 @@ ColorClock="" # empty for transparency
 ColorClockText="rgb:FF/FF/FF"
 DateFormat="%c"
 TimeFormat="%R"
+ClockCommand="notify-send \"$(date +'%a %Y-%m-%d %H:%M')\" \"$(cal --color=always | sed 's/\x1b\[7m/<span background=\"#FFF\" foreground=\"#333\">/;s/\x1b\[0m/<\/span>/')\" -i calendar"
 
 # battery
 TaskBarShowAPMGraph=1 # 0/1
