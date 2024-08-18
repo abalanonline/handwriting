@@ -14,6 +14,7 @@ TaskBarShowWindowTitles=0
 
 # disable keys
 ClientWindowMouseActions=0
+KeyWinSize="" # Alt+F8
 
 # cpu, mem, net
 #TaskBarShowCPUStatus=0

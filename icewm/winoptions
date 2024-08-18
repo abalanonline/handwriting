@@ -3,8 +3,10 @@ XTerm.icon: utilities-x-terminal
 xterm.mc.icon: mc
 XCalc.icon: accessories-calculator
 Leafpad.icon: wordpad
+Seq24.icon: seq24
 pcmanfm-qt.icon: folder-yellow
 sun-awt-X11-XFramePeer.jetbrains-idea-ce.dTitleBar: 0
+Navigator.firefox.dTitleBar: 0
 google-drive.startMinimized: 1
 google-drive.tray: Minimized
 google-drive.icon: google-drive
