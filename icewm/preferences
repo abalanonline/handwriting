@@ -15,6 +15,11 @@ TaskBarShowWindowTitles=0
 # disable keys
 ClientWindowMouseActions=0
 KeyWinSize="" # Alt+F8
+KeySysArrangeIcons="" # Alt+Shift+F8
+KeyWinMaximize="" # Alt+F10
+KeyWinMaximizeVert="" # Alt+Shift+F10
+KeyWinMinimize="" # Alt+F9
+KeySysMinimizeAll="" # Alt+Shift+F9
 
 # cpu, mem, net
 #TaskBarShowCPUStatus=0
