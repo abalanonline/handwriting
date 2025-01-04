@@ -34,3 +34,9 @@ GIT_PS1_SHOWUPSTREAM="auto"
 GIT_PS1_SHOWCOLORHINTS="true"
 PS1='\[\e[0;32m\]$(__git_ps1 " (%s)")\[\e[0m\]'
 ```
+
+### set the time
+
+```bash
+sudo ntpdate time.nrc.ca;sudo hwclock --systohc
+```
