@@ -3,5 +3,6 @@ xrandr --output eDP-1 --mode 1600x900
 xset r rate 250 30
 volumeicon &
 redshift-gtk &
-xscreensaver --no-splash &
+xset s 1800
+xss-lock -l -- env XSECURELOCK_SAVER=saver_xscreensaver xsecurelock &
 
