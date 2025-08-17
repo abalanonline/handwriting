@@ -109,3 +109,23 @@ xcalc.ti.button49.foreground: #434139
 xcalc.ti.button52.foreground: #434139
 xcalc.ti.button53.foreground: #434139
 xcalc.ti.button54.foreground: #434139
+
+# Nord
+Nord.vt100.background: #2E3440
+Nord.vt100.foreground: #D8DEE9
+Nord.vt100.color0: #3B4252
+Nord.vt100.color1: #BF616A
+Nord.vt100.color2: #A3BE8C
+Nord.vt100.color3: #EBCB8B
+Nord.vt100.color4: #81A1C1
+Nord.vt100.color5: #B48EAD
+Nord.vt100.color6: #88C0D0
+Nord.vt100.color7: #E5E9F0
+Nord.vt100.color8: #4C566A
+Nord.vt100.color9: #BF616A
+Nord.vt100.color10: #A3BE8C
+Nord.vt100.color11: #EBCB8B
+Nord.vt100.color12: #81A1C1
+Nord.vt100.color13: #B48EAD
+Nord.vt100.color14: #8FBCBB
+Nord.vt100.color15: #ECEFF4

@@ -3,6 +3,7 @@
 prog "UXTerm" utilities-terminal uxterm
 prog "Midnight Commander" mc xterm -class mc -e mc
 prog "XCalc" accessories-calculator xcalc
+prog "Nord" terminus xterm -class Nord
 prog "XTerm" utilities-x-terminal xterm
 prog "Explorer" folder-yellow pcmanfm-qt
 prog "leafpad" wordpad leafpad

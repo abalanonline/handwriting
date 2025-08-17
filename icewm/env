@@ -1,3 +1,4 @@
 # ~/.config/icewm/env
 #JDK_HOME=
 TZ=America/New_York
+PATH=$HOME/bin:$PATH
