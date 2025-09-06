@@ -1,10 +1,11 @@
 firefox vim htop icewm dunst xterm neofetch
 less zip unzip rclone gvfs-mtp mc man-db
 git jdk11-openjdk openjdk11-src maven gradle
-ttf-dejavu xcursor-vanilla-dmz papirus-icon-theme
+ttf-dejavu noto-fonts-emoji
+xcursor-vanilla-dmz papirus-icon-theme
 xorg-xrandr brightnessctl python-gobject redshift
 xscreensaver xsecurelock xss-lock
 volumeicon bluez bluez-utils alsa-utils fluidsynth
 scrot xorg-xev keepassxc rxvt-unicode xorg-xcalc
 tk vlc ntfs-3g abseil-cpp android-tools chromium
-gimp audacity dosbox mame schismtracker
+gimp audacity dosbox mame
