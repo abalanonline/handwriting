@@ -27,4 +27,6 @@ GIT_PS1_SHOWCOLORHINTS="true"
 unset GIT_PS1_SHOWCOLORHINTS
 #PS1='[%n@%m %1~]$ '
 PS1='[%n@%m %1~%F{green}$(__git_ps1 " (%s)")%f]$ '
+
+precmd() { printf "\033]0;%s@%s:%s\007" "${USER}" "${HOST%%.*}" "${PWD/#$HOME/~}" }
 ```
