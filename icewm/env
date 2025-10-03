@@ -1,4 +1,5 @@
 # ~/.config/icewm/env
+SHELL=/usr/bin/zsh
 #JDK_HOME=
 TZ=America/New_York
 PATH=$HOME/bin:$PATH
