@@ -1,0 +1,15 @@
+#!/bin/sh
+# when you can't use volumeicon anymore
+amixer=$(/usr/bin/amixer "$@")
+# echo $amixer
+playback=$(printf "%s" "${amixer}" | sed -z 's/.*Playback [[:digit:]]\+ \[\([[:digit:]]\+\)%] \[\(on\|off\)].*/\1 \2/')
+# echo $playback
+volume=$(printf "%s" "${playback}" | sed 's/\([[:digit:]]\+\).*/\1/')
+# echo $volume
+enabled=$(printf "%s" "${playback}" | sed 's/[[:digit:]]\+ \(.*\)/\1/')
+# echo $enabled
+icon="audio-volume-low-symbolic"
+if [ "${volume}" -gt 50 ]; then icon="audio-volume-medium-symbolic"; fi
+if [ "${volume}" -gt 75 ]; then icon="audio-volume-high-symbolic"; fi
+if [ "${enabled}" = "off" ]; then icon="audio-volume-muted-symbolic"; volume=0; fi
+notify-send -i "${icon}" -h "int:value:${volume}" -h string:synchronous:volumeicon "volume"
