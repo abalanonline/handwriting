@@ -11,6 +11,7 @@ IconPath=".icons:.local/share/icons:/usr/local/share/icons:/usr/local/share/pixm
 TaskBarShowWorkspaces=0
 TaskBarShowWindowTitles=0
 #TaskbarButtonWidthDivisor=8 # [1-50]
+FocusRequestFlashTime=2
 
 # disable keys
 ClientWindowMouseActions=0
