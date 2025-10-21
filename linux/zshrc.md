@@ -12,12 +12,16 @@ stty -ixon
 
 bindkey "^[[A" history-beginning-search-backward
 bindkey "^[[B" history-beginning-search-forward
+bindkey "^[[H" beginning-of-line
+bindkey "^[[F" end-of-line
+bindkey "^[[3~" delete-char
 
 alias ls='ls --color=auto'
 alias ll='ls -la --color=auto --time-style=long-iso'
 alias grep='grep --color=auto'
 
 setopt PROMPT_SUBST
+unsetopt nomatch
 source /usr/share/git/completion/git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE="true"
 GIT_PS1_SHOWSTASHSTATE="true"
