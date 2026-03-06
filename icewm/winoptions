@@ -4,9 +4,11 @@ xterm.Nord.icon: terminus
 xterm.mc.icon: mc
 XCalc.icon: accessories-calculator
 Leafpad.icon: wordpad
+science.icon: science
 Seq24.icon: seq24
 pcmanfm-qt.icon: folder-yellow
 sun-awt-X11-XFramePeer.jetbrains-idea-ce.dTitleBar: 0
+jetbrains-pycharm-ce.jetbrains-pycharm-ce.dTitleBar: 0
 Navigator.firefox.dTitleBar: 0
 Navigator.icecat-default.dTitleBar: 0
 google-drive.startMinimized: 1

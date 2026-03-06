@@ -1,3 +1,10 @@
+### Disable splash screen
+
+Help - Edit Custom VM Options
+```
+-Dnosplash=true
+```
+
 ### Fix code templates with missing newlines
 
 Settings - Editor - General - Ensure line feed at file end on Save

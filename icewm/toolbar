@@ -7,6 +7,7 @@ prog "Nord" terminus xterm -class Nord
 prog "XTerm" utilities-x-terminal xterm
 prog "Explorer" folder-yellow pcmanfm-qt
 prog "leafpad" wordpad leafpad
+prog "research" science leafpad --class science research.txt
 
 #prog "Web browser" internet-web-browser xdg-open about:blank
 prog "Web browser" applications-webapps xdg-open about:blank
